@@ -16,9 +16,9 @@ The method is documented in the preprint **“A Simple Method for Designing Infi
 
 | Feature | Description |
 | --- | --- |
-| 🧮 Inflow hydrograph | Triangular hydrograph from the **Rational Method** with pre- vs post-urbanization $C,\,t_c$ and **Sherman IDF** parameters $K,a,b,c$ |
+| 🧮 Inflow hydrograph | Triangular hydrograph from the **Rational Method** with pre- vs post-urbanization $C,t_c$ and **Sherman IDF** parameters $K,a,b,c$ |
 | 🌊 Dynamic infiltration | **Green–Ampt** capacity $$f(t)=\min\\big(C(t),h_p/\Delta t\big)$$ with evolving ponding depth $h_p$ and cumulative infiltration $F(t)$ |
-| 🧩 Height–area coupling | Optimization of $(A,\,h)$: matches **minimum detention volume** from urbanization impact and enforces **max ponding $\le h$** and **drain-down $\le 24\text{h}$** |
+| 🧩 Height–area coupling | Optimization of $(A,h)$: matches **minimum detention volume** from urbanization impact and enforces **max ponding $\le h$** and **drain-down $\le 24\text{h}$** |
 | 🛠️ Drains & spillways | Optional **underdrains (orifices)** and **freeboard + weir** sizing; supports climate-change **intensity scaling** $\gamma\ \in\ [1.2,1.4]$ |
 | 🧪 Sensitivity | Local sensitivity for $k_{\text{sat}},\Delta\theta,\psi$ on peak infiltration, max depth, and emptying time |
 | 📊 Diagnostics | Time series for $Q(t),f(t),h_p(t),F(t)$ and storage; feasibility flags and constraint checks |
